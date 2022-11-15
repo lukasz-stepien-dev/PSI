@@ -34,7 +34,7 @@ addButton.addEventListener("click", () => {
         alert("Już masz 10 gości!");
     }
     else {
-        changes.textContent = "";
+        changes.innerHTML = "Dodałeś <br>";
         let tempQuest
         let ok = true;
         let amount = parseInt(prompt("Podaj ile osob chcesz dodac"));
@@ -70,7 +70,7 @@ removeButton.addEventListener("click", () => {
         let amount = parseInt(prompt("Ile gości chcesz usunąć?"));
         let tempRemove;
         let recordNumber = 1;
-        changes.textContent = "";
+        changes.innerHTML = "Usunąłeś <br>";
         for (let a = 0; a < amount; a++) {
             do {
                 tempRemove = prompt("Podaj nazwe gościa, którego chcesz usunąć");
