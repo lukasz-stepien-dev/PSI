@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+#something-2, #something-3 {
+    width: 80vw;
+}
+
