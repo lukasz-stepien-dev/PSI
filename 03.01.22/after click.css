@@ -1,8 +1,38 @@
 * {
     box-sizing: border-box;
+    margin: 1vh 0.3vw 1vh 0.3vw;
 }
 
-#something-2, #something-3 {
-    width: 80vw;
+p {
+    font-size: 24px;
+    font-weight: bold;
 }
 
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#something-2 {
+    background-color: red;
+}
+
+#something-3 {
+    background-color: green;
+}
+
+#left, #right {
+    height: 30vh;
+}
+
+#left {
+    background-color: pink;
+}
+
+#right {
+    background-color: palevioletred;
+}
+
+#footer {
+    background-color: orange;
+}
